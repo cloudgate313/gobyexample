@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	messages := make(chan string, 3)
+	messages := make(chan string, 2)
 
 	messages <- "buffered"
 	messages <- "channel"
